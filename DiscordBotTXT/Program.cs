@@ -23,7 +23,7 @@ namespace DiscordBotTXT
             client.MessageReceived += CommandsHandler;
             client.Log += Log;
 
-            var token = "ODAzMzEzMTkzODUzMTI0NjA4.YA79tg.Fx61EJP23p5sB_G5C7h9LdByDcM";
+            var token = "";
 
             await client.LoginAsync(TokenType.Bot, token);
             await client.StartAsync();
